@@ -1,0 +1,19 @@
+.body{
+    font-family:'sans-serif', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.infoNosotrosContenedor{
+
+width: 100%;
+padding: 100px;
+}
+.infoNosotros{
+    font-family:cursive 'Do Hyeon', sans-serif; 
+    font-size: x-large;
+    color: $color-blue;
+    background-color: $color-background;
+}

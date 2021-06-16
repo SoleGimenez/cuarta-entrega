@@ -1,0 +1,40 @@
+.gradient{
+    box-sizing: border-box;
+    border-radius: 20px;
+    width:max-content;
+    min-height: 10vh;
+    margin-bottom: 5px;
+                       
+}
+.navbar{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: none;
+    color: $color-blue;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: none;
+    border-color: gray;
+    
+    
+    
+}        
+.contenedor__titulo{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+      
+}
+
+

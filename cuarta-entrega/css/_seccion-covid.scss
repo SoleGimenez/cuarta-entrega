@@ -1,0 +1,23 @@
+
+.imgCovid{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    
+}
+.textoProtocolo{
+    font-family:cursive 'Do Hyeon', sans-serif; 
+    font-size: x-large;
+    color: $color-blue;
+    background-color: $color-background;
+}
+
+.containerProtocolo{
+    width: 100%;
+    padding: 100px;
+}
+.mapa{
+    display: flex;
+    align-items: center;
+    width: 700px;
+}

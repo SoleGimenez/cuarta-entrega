@@ -1,0 +1,84 @@
+.footer{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width:max-content;
+    min-height: 5vh;
+    align-items: center;
+    text-align: center;
+
+    
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh;
+    grid-template-areas: 
+        "contacto"
+        "telefono"
+        "club"
+        "direccion"
+        "form"; 
+    
+}
+.contacto{
+    grid-area: contacto;
+    text-emphasis: center;
+    color: $color-yellowgreen;
+    padding: $padding - 20px;
+    border-bottom: 20px;
+    font-size: $font-size-contacto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+    @if $font-size-contacto==30px {
+        color:$color-yellowgreen
+        
+    } @else if $font-size-contacto<40px {
+        color: $color-blue
+    }
+
+}
+.telefono{
+    grid-area: telefono;
+    text-emphasis: center;
+    color: $color-yellowgreen;
+    padding: $padding;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+    @for $padding from 1 to 3{
+        .todos-#{$padding}{padding: 10px *2; }
+    }
+   
+    .todos-1{padding: 10px;}
+    .todos-2 {padding: 20px;}
+    .todos-3{padding: 30px;}
+}
+.club{
+    grid-area: club;
+    text-emphasis: center;
+
+    color: $color-yellowgreen;
+    padding: $padding;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.direccion{
+    grid-area: direccion;
+    text-emphasis: center;
+    color: $color-yellowgreen;
+    padding: $padding;
+    font-size: medium;
+    font-weight:bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.form{
+    grid-area: form;
+    color: $color-blue;
+    padding-left: $padding + 40px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

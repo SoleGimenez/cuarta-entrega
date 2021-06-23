@@ -1,11 +1,11 @@
 .footer{
     margin-top: 40px;
     margin-bottom: 5px;
+    margin-inline: 40%;
     border-radius: 10px;
     width:max-content;
     min-height: 5vh;
-    align-items: center;
-    text-align: center;
+    
 
     
    
@@ -23,7 +23,7 @@
 .contacto{
     grid-area: contacto;
     text-emphasis: center;
-    color: $color-yellowgreen;
+    color: $color-blue;
     padding: $padding - 20px;
     border-bottom: 20px;
     font-size: $font-size-contacto;
@@ -41,7 +41,7 @@
 .telefono{
     grid-area: telefono;
     text-emphasis: center;
-    color: $color-yellowgreen;
+    color: $color-blue;
     padding: $padding;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -59,7 +59,7 @@
     grid-area: club;
     text-emphasis: center;
 
-    color: $color-yellowgreen;
+    color: $color-blue;
     padding: $padding;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -68,17 +68,10 @@
 .direccion{
     grid-area: direccion;
     text-emphasis: center;
-    color: $color-yellowgreen;
+    color: $color-blue;
     padding: $padding;
     font-size: medium;
     font-weight:bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-}
-.form{
-    grid-area: form;
-    color: $color-blue;
-    padding-left: $padding + 40px;
-    font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

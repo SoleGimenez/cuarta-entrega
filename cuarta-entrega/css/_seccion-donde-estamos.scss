@@ -1,11 +1,20 @@
 .imagenClub{
     width: 800px;
+    display: flex;
+    margin: auto;
 
 }
 .verMapa{
     font-size: 30px;
     
 }
-.divDondeEstamos{
-    background-color: white;
+
+.algo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    padding: 30px;
 }
